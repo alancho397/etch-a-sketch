@@ -1,14 +1,19 @@
 #container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+    border: solid red;
+    height: 800px;
+    width: 800px;
 }
 
-.box {
+.row {
     display: flex;
-    border: solid black;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
+    flex: 1;
+    flex-direction: column;
+}
+
+.box { 
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid black;
+    padding: 10%
 }
